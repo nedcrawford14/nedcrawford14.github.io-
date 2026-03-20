@@ -6,3 +6,7 @@ Here are a few things I might include later:
 * Information about my skills and experience
 * A way to contact me
 **Stay tuned for updates!**
+
+## My Map
+
+[View My ArcGIS Map](map/agol-map.html)
