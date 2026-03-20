@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Food Assistance and HUD Housing in San Diego</title>
+  <meta charset="utf-8">
+  <title>My ArcGIS Map</title>
+  <script type="module" src="https://js.arcgis.com/4.30/map-components/"></script>
 </head>
 <body>
+  <h1>My ArcGIS Online Map</h1>
 
-<h1>ArcGIS Online Map</h1>
-
-<iframe 
-    width="100%" 
-    height="600" 
-    frameborder="0" 
-    scrolling="no" 
-    marginheight="0" 
-    marginwidth="0" 
-    src="<!-- Add script to the <head> of your page to load the embeddable map component -->
-<script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
-<!-- Add custom element to <body> of your page -->
- <arcgis-embedded-map style="height:600px;width:700px;" item-id="1fdf15019ede47d88ad5786c71ec22ea" theme="light" heading-enabled legend-enabled time-zone-label-enabled center="-117.11421091091388,32.71725896109497"scale="144447.638572" portal-url="https://univredlands.maps.arcgis.com"></arcgis-embedded-map>">
-</iframe>
+  <arcgis-embedded-map
+    style="height:600px;width:100%;"
+    item-id="1fdf15019ede47d88ad5786c71ec22ea"
+    theme="light"
+    portal-url="https://univredlands.maps.arcgis.com">
+  </arcgis-embedded-map>
 
 </body>
 </html>
